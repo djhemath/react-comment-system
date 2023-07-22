@@ -1,0 +1,67 @@
+{
+  "name": "@djhemath/react-comment-system",
+  "version": "1.0.0",
+  "description": "A highly customizable comment system built with React.",
+  "keywords": [
+    "customizable",
+    "react",
+    "comment",
+    "system",
+    "comment system",
+    "react comment system",
+    "customizable react comment system",
+    "customizable comment system"
+  ],
+  "homepage": "https://github.com/djhemath/react-comment-system",
+  "license": "ISC",
+  "author": {
+    "email": "djhemath@gmail.com",
+    "name": "DJ Hemath",
+    "url": "https://www.hemath.dev"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "repository": {
+    "url": "https://github.com/djhemath/react-comment-system.git",
+    "type": "git"
+  },
+  "scripts": {
+    "test": "react-scripts test --watchAll --coverage"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.7",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@storybook/addon-essentials": "^7.0.26",
+    "@storybook/addon-interactions": "^7.0.26",
+    "@storybook/addon-links": "^7.0.26",
+    "@storybook/blocks": "^7.0.26",
+    "@storybook/react": "^7.0.26",
+    "@storybook/react-webpack5": "^7.0.26",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^14.0.0",
+    "@types/react": "^18.2.14",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "rollup": "^3.26.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "storybook": "^7.0.26",
+    "tslib": "^2.6.0",
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "private": false
+}
